@@ -1,0 +1,9 @@
+[user]
+	name = SEU NOME - EMPRESA
+	email = seu.email@empresa.com
+
+# Identidade escolhida pelo host do remote (git >= 2.36)
+[includeIf "hasconfig:remote.*.url:git@github-pessoal:*/**"]
+	path = ~/.gitconfig-pessoal
+[includeIf "hasconfig:remote.*.url:git@github-empresa:*/**"]
+	path = ~/.gitconfig-empresa

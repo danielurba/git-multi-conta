@@ -1,0 +1,13 @@
+Host github-pessoal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github_pessoal
+    IdentitiesOnly yes
+    AddKeysToAgent yes
+
+Host github-empresa
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github_empresa
+    IdentitiesOnly yes
+    AddKeysToAgent yes
